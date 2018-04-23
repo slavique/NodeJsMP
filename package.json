@@ -1,0 +1,27 @@
+{
+  "name": "nodejsmp",
+  "version": "1.0.0",
+  "description": "Project will contain Homework tasks for NodeJS mentoring program 2018",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --experimental-modules app.mjs",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Viacheslav Valitskas",
+  "license": "ISC",
+  "babel": {
+    "presets": ["es2015", "env", "stage-2"]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "nodemon": "^1.17.3"
+  }
+}
